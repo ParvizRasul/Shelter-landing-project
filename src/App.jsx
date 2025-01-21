@@ -1,9 +1,21 @@
-import Logo from './components/Logo';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import Card from './components/Card';
+import Hero from './components/Hero';
+
 
 function App() {
   return (
     <>
-      <Logo />
+      <Navbar/>
+      <div className="container" >
+      
+      <Hero/>
+      <Card/>
+      
+      </div>
+      <Footer/>
+      
     </>
   );
 }
